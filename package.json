@@ -1,24 +1,27 @@
 {
   "name": "notes-app-api",
-  "version": "1.1.0",
-  "description": "A Node.js starter for the Serverless Framework with async/await and unit test support",
-  "main": "handler.js",
+  "version": "",
+  "description": "My Notes App",
+  "main": "",
   "scripts": {
     "test": "serverless-bundle test"
   },
   "author": "",
-  "license": "MIT",
+  "license": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AnomalyInnovations/serverless-nodejs-starter.git"
+    "url": ""
   },
   "devDependencies": {
     "aws-sdk": "^2.670.0",
+    "jest": "^26.0.1",
     "serverless-bundle": "^1.2.5",
     "serverless-dotenv-plugin": "^2.1.1",
     "serverless-offline": "^5.3.3"
   },
   "dependencies": {
+    "serverless": "^1.73.1",
+    "stripe": "^8.60.0",
     "uuid": "^7.0.3"
   }
 }
